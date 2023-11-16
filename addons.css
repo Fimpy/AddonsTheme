@@ -1,5 +1,5 @@
 root: {
-     --gradient-one: 216, 195, 158;
+    --gradient-one: 216, 195, 158;
     --gradient-two: 74, 3, 86;
     --gradient-three: 202, 43, 42;
     --gradient-mention: linear-gradient(231deg, rgba(var(--gradient-three), 0.4), rgba(var(--gradient-two), 0.4), rgba(var(--gradient-one), 0.4));
