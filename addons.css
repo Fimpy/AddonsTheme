@@ -1,0 +1,121 @@
+.headerText_f47574 .indicatorContainer svg{
+    width: 27px;
+    height: 27px;
+  }
+
+  .container_b2ce9c .indicatorContainer svg {
+    position: absolute !important;
+    right: 92px;  
+    top: 10px;
+    transition: 0.25s ease;
+    z-index: 100 !important;
+    background-color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+
+  .container_b2ce9c:not(:hover) .indicatorContainer{
+    position: absolute !important;
+    right: 92px; 
+    top: 10px; 
+    transition: 0.25s ease;
+    z-index: 100 !important;
+    background-color: rgb(0, 0, 0); 
+    border-radius: 50%;
+  }
+
+  .container_b2ce9c:hover  .indicatorContainer svg{
+    position: relative!important;
+    right: 0px !important;
+    padding-top: 0px;
+    top: 0px;
+    transition: 0.25s ease;
+    background-color: rgba(0, 0, 0, 0); 
+  }
+  .container_b2ce9c {
+    position: relative !important;
+    max-width: 250px ;
+    min-width: 50px;
+    width: 50px;
+    transition:  0.5s ease;
+    z-index: 2 !important;
+  }
+  .container_b2ce9c:hover {
+    right: 0px;
+    position: relative;
+    max-width: 250px;
+    min-width: 250px;
+    transition:  0.5s ease;
+  }
+
+
+  div:not(:hover)>.members-3WRCEx>div {
+    padding-top: 10px;
+    background: var(--bg-alt);
+  }
+  #app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
+    background: var(--gradient) !important;
+  }
+  #app-mount .mentioned-Tre-dv.groupStart-3Mlgv1 .contents-2MsGLg {
+    background: var(--gradient-mention) !important;
+  }
+  #app-mount .newMessagesBar-1hF-9G {
+    border-radius: var(--btn-radius);
+    opacity: 1;
+    left: unset;
+    background: var(--gradient-mention);
+    box-shadow: none;
+  }
+  #app-mount .jumpToPresentBar-1cEnH0 {
+    border-radius: var(--btn-radius);
+    left: unset;
+    opacity: 1;
+    background: var(--gradient-mention);
+    box-shadow: none;
+  }
+  #app-mount .member_aa4760:hover{
+    background: var(--gradient);
+  }
+  #app-mount .containerDefault-YUSmu3:focus-within::before {
+    height: 2px;
+    background: var(--gradient);
+  }
+
+  #app-mount .membersGroup__85843 {
+    color:aliceblue !important;
+  }
+
+  .reaction-3vwAF2:hover {
+    border: 0.0625rem solid transparent !important;
+  }
+  .container__8759a:hover{
+    background: var(--gradient) !important; 
+  }
+  .containerDefault__3187b.selected__3b4cb{
+    background: var(--gradient) !important; 
+  }
+  .containerDefault__3187b:hover{
+    background: var(--gradient) !important; 
+  }
+  .layer_ec16dd {
+    background: rgba(0,0,0,0.5)
+  }
+  #app-mount .wrapper__7bcde.modeUnread_f74c03 .link__95dc0 {
+    position:  relative !important;
+    background: rgba(255, 255, 255, 0.17) !important;
+    box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour)/0.3);
+  }
+  #app-mount .privateChannelsHeaderContainer-1UWASm {
+    color: white !important;
+  }
+
+  .chat__52813 {
+    background: rgba(0,0,0,0.45);
+  }
+  .sidebar_ded4b5 {
+    width: 210px;
+  }
+  .unreadMentionsBar__0d02a{
+    display: none;
+  }
