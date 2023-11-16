@@ -139,3 +139,36 @@
     border-image-slice: 1;
     border-radius: 20px;
   }
+  .scroller_e89578{
+    position: relative;
+  }
+  .scroller_e89578.content__1748b::after {
+    opacity: 0;
+  }
+  .scroller_e89578::after {
+      transition: 0s ease;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-position: 100%;
+      opacity: 0;
+  }
+  .scroller_e89578.videoGrid__8b6fc.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0::before {
+    transition: 0s ease;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: var(--background);
+    background-position: 100%;
+    opacity: 0.4;
+    z-index: 0; 
+  }
+  .background__3b30f{
+    background-image: var(--gradient-mention) !important;
+  }
