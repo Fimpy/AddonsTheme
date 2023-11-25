@@ -104,16 +104,16 @@
   .container__8759a:hover{
     background: var(--gradient) !important; 
   }
-  .containerDefault__3187b.selected__3b4cb{
+  .containerDefault__3187b.selected__3b4cb .link__95dc0{
     background: var(--gradient) !important; 
-  }
-  .containerDefault__3187b:hover{
+  } 
+  .wrapper__7bcde .link__95dc0:hover{
     background: var(--gradient) !important; 
   }
   .layer_ec16dd {
     background: rgba(0,0,0,0.5)
   }
-  #app-mount .wrapper__7bcde.modeUnread_f74c03 .link__95dc0 {
+  #app-mount .wrapper__7bcde.modeUnreadImportant_efb53e .link__95dc0{
     position:  relative !important;
     background: rgba(255, 255, 255, 0.17) !important;
     box-shadow: 0 0 calc(var(--channel-glow-intensity) * 10px) calc(var(--channel-glow-intensity) * 2px) rgb(var(--unread-colour)/0.3);
