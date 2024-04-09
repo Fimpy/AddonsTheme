@@ -1,4 +1,4 @@
-:root {
+  :root {
     --gradient-one: 216, 195, 158;
     --gradient-two: 74, 3, 86;
     --gradient-three: 202, 43, 42;
@@ -10,9 +10,9 @@
     width: 27px;
     height: 27px;
   }
-  #app-mount .container_f79ab4 .indicatorContainer svg {
+ .container_f79ab4 .indicatorContainer svg {
     position: absolute !important;
-    right:  195px !important;  
+    right: 92px;
     top: 10px;
     transition: 0.25s ease;
     background-color: rgb(0, 0, 0);
@@ -20,12 +20,14 @@
     height: 25px;
     border-radius: 50%;
   }
-  #app-mount .container_f79ab4:not(:hover) .indicatorContainer {
+  .container_f79ab4:not(:hover) .indicatorContainer {
     position: absolute !important;
-    right: 195px !important; 
-    top: 10px; 
+    right: 92px;
+    top: 10px;
     transition: 0.25s ease;
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
   }
   #app-mount  .container_f79ab4:hover .indicatorContainer svg{
@@ -39,7 +41,7 @@
   .container_f79ab4 {
     position: relative !important;
     max-width: 250px ;
-    min-width: 50px;
+    min-width: 80px;
     width: 50px !important;
     transition:  0.5s ease;
     border-left-width: 2.5px;
